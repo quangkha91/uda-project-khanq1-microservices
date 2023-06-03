@@ -1,4 +1,4 @@
-apiVersion: v1
+apiVersion: v3
 kind: ConfigMap
 data:
   AWS_BUCKET: p3-939009092585-dev

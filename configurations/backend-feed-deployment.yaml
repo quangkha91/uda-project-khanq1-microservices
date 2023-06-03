@@ -15,7 +15,7 @@ spec:
         service: api-feed
     spec:
       containers:
-      - image: quangkha91/udagram-api-feed
+      - image: quangkha91/udagram-api-feed:v1
         name: api-feed
         imagePullPolicy: Always                
         env:

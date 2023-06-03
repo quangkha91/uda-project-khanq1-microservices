@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  appName: 'Udacity project 3 - KhaNQ1',
+  appName: 'Udacity Cloud Develop project 3',
   apiHost: 'http://a5c1866f70f684431bbf5fb5a7c4970f-2032280748.us-east-1.elb.amazonaws.com/api/v0'
 };
 

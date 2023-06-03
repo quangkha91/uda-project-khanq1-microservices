@@ -1,4 +1,4 @@
-apiVersion: apps/v3
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   labels:
@@ -15,7 +15,7 @@ spec:
         service: reverseproxy
     spec:
       containers:
-        - image: quangkha91/reverseproxy:v3
+        - image: quangkha91/reverseproxy:v1
           name: reverseproxy
           imagePullPolicy: Always
           resources:
